@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/event_bg"
+    tools:context=".Option">
+
+    <TextView
+        android:text="Back"
+        android:textColor="@color/pink"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:elevation="15dp"
+        android:layout_margin="15dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/cancel"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_shape"/>
+
+    <Button
+        android:id="@+id/profile"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_shape"/>
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="     Jetpack Compose Camp 3 "
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="  Organsied By GDSC"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="  16th Oct 2022, 2:00 PM "
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="330dp"
+        android:gravity="center"
+        android:text="   Day 3 of the compose camp "
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="360dp"
+        android:gravity="center"
+        android:text="   in MITSOE building "
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="390dp"
+        android:gravity="center"
+        android:text="    on 5th floor, N519 "
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="490dp"
+        android:layout_marginRight="150dp"
+        android:gravity="center"
+        android:text=" Registration Link "
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="540dp"
+        android:gravity="center"
+        android:text="  https://forms.gle/15dsvsdb"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

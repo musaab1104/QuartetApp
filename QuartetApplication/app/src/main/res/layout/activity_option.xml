@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/option_bg"
+    tools:context=".Option">
+
+    <TextView
+        android:text="Back"
+        android:textColor="@color/pink"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:elevation="15dp"
+        android:layout_margin="15dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/cancel"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_shape"/>
+
+    <Button
+        android:id="@+id/profile"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_shape"/>
+
+    <TextView
+        android:text="EVENTS"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:elevation="15dp"
+        android:layout_marginTop="90dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="200dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+
+        <Button
+            android:id="@+id/cul_next"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="350dp"
+            android:layout_height="76dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/login_shape"
+            app:backgroundTint="@color/white" />
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textColor="@color/pink"
+            android:text="CULTURAL EVENTS"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="330dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <Button
+            android:id="@+id/tech_next"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="350dp"
+            android:layout_height="78dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/login_shape"
+            app:backgroundTint="@color/white" />
+
+        <ImageView
+            android:id="@+id/img_tech"
+            android:layout_width="295dp"
+            android:layout_height="187dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textColor="@color/pink"
+            android:text="TECHNICAL EVENTS"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="460dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <Button
+            android:id="@+id/sport_next"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="350dp"
+            android:layout_height="81dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/login_shape"
+            app:backgroundTint="@color/white" />
+
+
+        <ImageView
+            android:id="@+id/img_sports"
+            android:layout_width="295dp"
+            android:layout_height="187dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textColor="@color/pink"
+            android:text="SPORTS EVENTS"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="800dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="590dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <Button
+            android:id="@+id/fest_next"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="350dp"
+            android:layout_height="77dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/login_shape"
+            app:backgroundTint="@color/white" />
+
+
+        <ImageView
+            android:id="@+id/img_festival"
+            android:layout_width="295dp"
+            android:layout_height="187dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="FESTIVAL EVENTS"
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

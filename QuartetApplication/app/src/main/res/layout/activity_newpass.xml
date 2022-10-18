@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/forgotpass"
+    android:padding="15dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Forgotpassword">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:elevation="15dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:text="Set New Password:"
+        android:textColor="@color/pink"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:hint="     New Password"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:errorEnabled="true"
+        app:placeholderTextColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enroll"
+            android:layout_width="320dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:hint="   Confirm Password"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:errorEnabled="true"
+        app:placeholderTextColor="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confirm"
+            android:layout_width="320dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/login_shape"
+        app:backgroundTint="@color/pink"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

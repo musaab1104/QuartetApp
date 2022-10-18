@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/option_bg"
+    tools:context=".Option">
+
+    <TextView
+        android:text="Back"
+        android:textColor="@color/pink"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:elevation="15dp"
+        android:layout_margin="15dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/cancel"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_shape"/>
+    <Button
+        android:id="@+id/profile"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_shape"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:elevation="15dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="130dp"
+        android:text="Festival Events"
+        android:textColor="@color/pink"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="800dp"
+        android:layout_height="170dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="250dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+
+        <Button
+            android:id="@+id/fest_event1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="350dp"
+            android:layout_height="76dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/login_shape"
+            app:backgroundTint="@color/white" />
+
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="85dp"
+            android:gravity="center"
+            android:text="Dandiya Nights "
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="48dp"
+            android:gravity="center"
+            android:text="MIT SHD "
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="12th Sept 2022, 2:00 PM "
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="800dp"
+        android:layout_height="170dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="400dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <Button
+            android:id="@+id/fest_event2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="350dp"
+            android:layout_height="78dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/login_shape"
+            app:backgroundTint="@color/white" />
+
+        <ImageView
+            android:id="@+id/img_tech"
+            android:layout_width="295dp"
+            android:layout_height="187dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="85dp"
+            android:gravity="center"
+            android:text="Ganpati Agman"
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="48dp"
+            android:gravity="center"
+            android:text="MIT ID "
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="14th Sept 2022, 2:00 PM "
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="800dp"
+        android:layout_height="170dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="550dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <Button
+            android:id="@+id/fest_event3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="350dp"
+            android:layout_height="81dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/login_shape"
+            app:backgroundTint="@color/white" />
+
+
+        <ImageView
+            android:id="@+id/img_sports"
+            android:layout_width="295dp"
+            android:layout_height="187dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="85dp"
+            android:gravity="center"
+            android:text="Ganpati Visarjan "
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="48dp"
+            android:gravity="center"
+            android:text="MIT ID "
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="16th Sept 2022, 2:00 PM "
+            android:textAlignment="center"
+            android:textColor="@color/pink"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
